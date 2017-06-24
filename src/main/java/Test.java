@@ -8,6 +8,8 @@ import java.lang.annotation.Target;
 @Target(ElementType.METHOD)
 public @interface Test {
 
+    int priority() default 5;
+
 }
 
 
